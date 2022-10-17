@@ -53,8 +53,8 @@ int main()
     // vector of graph edges as per the above diagram
     vector<Edge> edges = {
         // Notice that node 0 is unconnected
-        {1, 2}, {1, 7}, {1, 8}, {2, 3}, {2, 6}, {3, 4},
-        {3, 5}, {8, 9}, {8, 12}, {9, 10}, {9, 11}
+        {1, 4}, {1, 8}, {1, 9}, {2, 7}, {2, 8}, {3, 6},
+        {3, 5}, {8, 9}, {8, 12}, {9, 10}, {9, 14}
     };
  
     // total number of nodes in the graph (labelled from 0 to 12)
